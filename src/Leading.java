@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class Leading extends Master{
     public Leading(String name, String surname, int price) {
         super(name, surname, price);
@@ -18,5 +16,9 @@ public class Leading extends Master{
 
         int zarplata=kolvoRunners*price;
         return zarplata;
+    }
+    public Runner run(Runner r){
+        r.getNumber();
+        return r;
     }
 }
